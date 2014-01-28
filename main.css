@@ -1,0 +1,154 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  font-family: Open Sans,Source Sans Pro,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  background: url('images/body-bg.jpg') no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 12px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 24px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  font-weight: 300;
+}
+
+h2 {
+  color : #3C8C8A
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.navbar-default {
+  background-color: rgba(248, 248, 248, 0.75);
+  border-color: transparent;
+  border-radius: 5px;
+}
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #555;
+  background-color: #E7E7E7;
+}
+
+.jumbotron {
+  color: inherit;
+  background-color: rgba(238, 238, 238, 0.6);
+}
+
+.jumbotron p {
+  color: #060606;
+}
+
+#details{
+  background-color: white;
+}
+
+.circular {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background: url('images/me.jpg') no-repeat;  
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+}
+
+.circular img {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.name {
+  color: #3C8C8A;
+}
+
+.navbar-default .navbar-brand {
+  color: #3C8C8A;
+}
