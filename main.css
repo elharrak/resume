@@ -3,7 +3,7 @@ body {
   padding-top: 20px;
   font-family: Open Sans,Source Sans Pro,Helvetica,Arial,sans-serif;
   font-weight: 300;
-  background: url('images/body-bg.jpg') no-repeat center center fixed;
+  background: url('images/DSC01874.JPG') no-repeat center center fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -65,6 +65,7 @@ h2 {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  margin-top: 30%;
 }
 
 .jumbotron .btn {
