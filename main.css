@@ -1,3 +1,20 @@
+@font-face
+{
+  font-family: plstk;
+  src: url(plstk/plstk.ttf);
+}
+@font-face
+{
+  font-family: Homestead;
+  src: url(Homestead/Homestead-Display.ttf);
+}
+@font-face
+{
+  font-family: ostrich-sans;
+  src: url(ostrich-sans/ostrich-bold.ttf);
+}
+
+
 /* Space out content a bit */
 body {
   font-family: Open Sans,Source Sans Pro,Helvetica,Arial,sans-serif;
@@ -11,19 +28,21 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 12px 0;
-  font-family: inherit;
-  font-weight: bold;
-  line-height: 24px;
-  color: inherit;
-  text-rendering: optimizelegibility;
-  font-weight: 300;
+
 }
 
 .jumbotron {
   background-color: rgba(10, 10, 10, 0.6);
   width: 460px;
   margin-left: 60px;
+}
+
+.jumbotron h1{
+  font-family: ostrich-sans;
+  font-size: 100px;
+  color: rgb(177, 224, 232);
+  margin: 12px 0;
+  text-rendering: optimizelegibility;
 }
 
 .jumbotron p {

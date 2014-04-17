@@ -13,7 +13,42 @@
     <link href="dist/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="main.css" rel="stylesheet">
+    <style type="text/css">
+      @font-face
+      {
+        font-family: ostrich-sans;
+        src: url(ostrich-sans/ostrich-bold.ttf);
+      }
+      body {
+        font-family: Open Sans,Source Sans Pro,Helvetica,Arial,sans-serif;
+        font-weight: 300;
+        background: url('images/me-bg.jpg') no-repeat center center fixed;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: #FFFFFF;
+      }
+
+      .jumbotron {
+        background-color: rgba(10, 10, 10, 0.6);
+        width: 460px;
+        margin-left: 60px;
+      }
+
+      .jumbotron h1{
+        font-family: ostrich-sans;
+        font-size: 100px;
+        color: rgb(177, 224, 232);
+        margin: 12px 0;
+        text-rendering: optimizelegibility;
+      }
+
+      .jumbotron p {
+        color: #E2E2E2;
+        font-size: 18px;
+      }
+    </style>
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -31,13 +66,7 @@
         <p><a id="contact" class="btn btn-lg btn-success" href="#" role="button">Get in touch</a></p>
       </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="dist/js/bootstrap.min.js"></script>
+  
         <script type="text/javascript">
         var myButton = document.getElementById("contact");
         myButton.addEventListener('click', function(e){
